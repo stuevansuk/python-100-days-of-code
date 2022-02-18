@@ -34,5 +34,24 @@ print("Hello " + input("What is your name?\n"))
 name = input("Hello what is your name?\n")
 print(len(name))
 
-#More efficient way of doing it, nesting the funtions!
+#Less efficient way of doing it, nesting the funtions!
 print(len(input("What is your name?\n")))
+
+# Adding more variables 
+name = input("Hello what is your name?\n")
+length = len(name)
+print(name)
+
+#Basic variables
+name = input("What is your name?")
+print(name)
+
+#Sets the variable
+name = "Jack"
+print(name)
+
+#Code Challenge: Write a program that switches the values stored in the variables a and b.
+a = input("a:")
+b = input("b:")
+print("a=", b)
+print("b=", a)

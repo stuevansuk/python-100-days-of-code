@@ -1,0 +1,14 @@
+# Initialise Repo
+
+echo "# python-100-days-of-code" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin git@github.com:stuevansuk/python-100-days-of-code.git
+git push -u origin master
+
+# Git add files and push
+git add .
+git commit -m "Day 1 - 100 Days of Python"
+git push 

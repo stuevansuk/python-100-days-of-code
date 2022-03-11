@@ -1,4 +1,3 @@
-from tkinter import SOLID
 print("\n-------Ebay Fees Calculator---------")
 purchase_price = float(input("Purhcased Price : "))
 sold_price = float(input("Sold Price : "))
